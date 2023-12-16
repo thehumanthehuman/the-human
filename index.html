@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Human</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: "Georgia", serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        #titre {
+            color: red;
+            font-family: impact;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        #texte,
+        #texte2 {
+            font-size: 14px;
+            margin-top: 20px;
+            margin-bottom: 20px; /* Espace entre le texte et le bas de la page */
+        }
+
+        .a-maze-in {
+            font-family: "Georgia", serif;
+            color: #b8860b; /* Couleur du texte "a maze in" */
+            letter-spacing: 5px;
+            margin-top: 20px;
+            margin-bottom: 20px; /* Espace entre "a maze in" et la pyramide */
+            font-size: 18px;
+            line-height: 1.6; /* Augmentation de l'espacement entre les lignes */
+        }
+
+        .pyramid {
+            color: #b8860b; /* Couleur de la pyramide */
+            margin-bottom: 20px; /* Espace entre la pyramide et le fichier audio */
+        }
+
+        .pyramid .line {
+            font-size: 18px;
+            letter-spacing: 5px;
+            margin-bottom: 10px; /* Espace réduit entre chaque ligne de la pyramide */
+        }
+
+        #audio {
+            margin-top: 20px;
+            margin-bottom: 20px; /* Espace entre le fichier audio et le bas de la page */
+        }
+        
+        .image-container {
+            width: 90%; /* Largeur ajustée pour les petits écrans */
+            max-width: 400px; /* Largeur maximale */
+            margin: 20px auto;
+            display: block;
+        }
+
+        .image-container img {
+            width: 100%; /* Utilise la largeur totale du conteneur */
+            display: block;
+        }
+
+        .spacer {
+            height: 20px; /* Espace entre les éléments graphiques */
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="titre">The Human</h1>
+    <p id="texte">The Human</p>
+    
+    <div class="image-container">
+        <img src="https://combineoverwiki.net/images/4/4f/Valve_head2.png" alt="a">
+    </div>
+
+    <div class="a-maze-in">
+        A<br>
+        MAZE<br>
+        IN
+    </div>
+
+    <div class="spacer"></div> <!-- Ligne vide entre "a maze in" et l'image 2 en haut -->
+
+    <div class="pyramid">
+        <div class="line">A B R A C A D A B R A</div>
+        <div class="line">A B R A C A D A B R</div>
+        <div class="line">A B R A C A D A B</div>
+        <div class="line">A B R A C A D A</div>
+        <div class="line">A B R A C A D</div>
+        <div class="line">A B R A C A</div>
+        <div class="line">A B R A C</div>
+        <div class="line">A B R A</div>
+        <div class="line">A B R</div>
+        <div class="line">A B</div>
+        <div class="line">A</div>
+    </div>
+
+    <audio id="audio" controls loop>
+        <source src="musique2.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="image-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Bill_and_Hillary_Clinton_Christmas_Portrait_1997.jpg" alt="b">
+    </div>
+
+    <div class="image-container">
+        <img src="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/R3JHJRUFTQI6VANDS2IMTCARCE.jpg" alt="c">
+    </div>
+
+    <div class="image-container">
+        <img src="https://masonicfind.com/wp-content/uploads/2019/02/is-buzz-aldrin-a-freemason.jpeg" alt="d">
+    </div>
+
+    
+    <div class="image-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Ishtar-star-symbol.svg/800px-Ishtar-star-symbol.svg.png" alt="f">
+    </div>
+
+    <p id="texte2">נתיב אמת חיים</p>
+
+    <div class="spacer"></div> <!-- Ligne vide entre la pyramide inversée et le bas de la page -->
+
+</body>
+
+</html>
